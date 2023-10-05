@@ -6,7 +6,6 @@ import (
 	"os"
 
 	"gioui.org/app"
-	"gioui.org/font/gofont"
 	"gioui.org/io/system"
 	"gioui.org/layout"
 	"gioui.org/op"
@@ -14,7 +13,7 @@ import (
 	"gioui.org/widget/material"
 )
 
-var theme = material.NewTheme(gofont.Collection())
+var theme = material.NewTheme() //gofont.Collection())
 
 func main() {
 	go func() {
